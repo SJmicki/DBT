@@ -1,4 +1,4 @@
 {{config(materialized='table')}}
 
-select * from SAKILA_RAW.MYSQL_RDS_SAKILA.ACTOR
+select * from {{ source("mysql_rds_sakila","ACTOR")}}
 where _fivetran_deleted = FALSE
