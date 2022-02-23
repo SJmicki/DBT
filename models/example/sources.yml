@@ -6,3 +6,8 @@ sources:
     tables:
       - name: actor
       - name: address
+      - name: store
+      - name: staff
+      - name: customer
+      - name: city
+      - name: country
